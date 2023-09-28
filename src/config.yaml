@@ -4,14 +4,14 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: ""
+  googleSiteVerificationId: ''
 
 # Default SEO metadata
 metadata:
   title:
     default: EcoBuddy
     template: '%s — EcoBuddy'
-  description: "EcoBuddy je mobilna aplikacija za pravilno ločevanje odpadkov, ki deluje na podlagi računalniškega vida."
+  description: 'EcoBuddy je mobilna aplikacija za pravilno ločevanje odpadkov, ki deluje na podlagi računalniškega vida.'
   robots:
     index: true
     follow: true
