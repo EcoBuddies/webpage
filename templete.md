@@ -1,10 +1,3 @@
-# EcoBuddy webpage
-
-## Developement
-
-- see template.md
-
-
 # 🚀 AstroWind
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
@@ -39,8 +32,6 @@
 <details open>
 <summary>Table of Contents</summary>
 
-- [EcoBuddy webpage](#ecobuddy-webpage)
-  - [Developement](#developement)
 - [🚀 AstroWind](#-astrowind)
   - [Demo](#demo)
   - [Getting started](#getting-started)

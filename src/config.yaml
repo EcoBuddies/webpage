@@ -1,24 +1,24 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: EcoBuddy
+  site: 'https://ecobuddy.si'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ""
 
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: EcoBuddy
+    template: '%s — EcoBuddy'
+  description: "EcoBuddy je mobilna aplikacija za pravilno ločevanje odpadkov, ki deluje na podlagi računalniškega vida."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: EcoBuddy
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/eb_sticker.png'
         width: 1200
         height: 628
     type: website
@@ -33,29 +33,29 @@ i18n:
 
 apps:
   blog:
-    isEnabled: true
+    isEnabled: false
     postsPerPage: 6
 
     post:
-      isEnabled: true
+      isEnabled: false
       permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       robots:
-        index: true
+        index: false
 
     list:
-      isEnabled: true
+      isEnabled: false
       pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
       robots:
-        index: true
+        index: false
 
     category:
-      isEnabled: true
+      isEnabled: false
       pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
       robots:
-        index: true
+        index: false
 
     tag:
-      isEnabled: true
+      isEnabled: false
       pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
       robots:
         index: false
